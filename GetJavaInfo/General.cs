@@ -8,7 +8,7 @@ namespace GetJavaInfo
     [ComVisible(true)]
     public class General
     {
-        public string CurrentJavaVersion()
+        public static string CurrentJavaVersion()
         {
             try
             {
@@ -19,7 +19,7 @@ namespace GetJavaInfo
                 return null;
             }
         }
-        public string CurrentJavaPath()
+        public static string CurrentJavaPath()
         {
             try
             {
@@ -30,7 +30,7 @@ namespace GetJavaInfo
                 return null;
             }
         }
-        public string WasItInstalled(string version)
+        public static string WasItInstalled(string version)
         {
             try
             {
@@ -46,7 +46,7 @@ namespace GetJavaInfo
                 return null;
             }
         }
-        public string[] GetAllVersion()
+        public static string[] GetAllVersion()
         {
             try
             {
@@ -57,7 +57,7 @@ namespace GetJavaInfo
                 return null;
             }
         }
-        public string[] GetAllPath()
+        public static string[] GetAllPath()
         {
             try
             {
