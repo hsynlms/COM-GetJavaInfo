@@ -1,7 +1,7 @@
 # GetJavaInfo
 This library allows you to get jdk information, for example to get latest installed version or path, to get list of all installed versions and their paths.
 
-You can also query if specified version installed that you gave as a parameter. If it was installed, returns path otherwise it will return null.
+You can also query if specified version that given as a paremeter installed. If it was installed, returns path otherwise it will return null.
 
 ## Methods
 All methods that this library contains listed below:
